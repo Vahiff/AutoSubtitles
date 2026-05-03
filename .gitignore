@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+.venv/
+venv/
+
+# builds
+dist/
+build/
+release/
+
+# env and secrets
+.env
+.env.*
+!.env.example
+
+# generated media
+*.tmp
+*.cache
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
